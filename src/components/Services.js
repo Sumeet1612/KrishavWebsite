@@ -58,7 +58,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="BoxCenter">
+        {/* <div className="BoxCenter"> */}
           <div className="card slide-card">
             <div className="card-body">
               <h5
@@ -90,7 +90,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-        </div>
+        {/* </div> */}
         <br />
       </div>
     </section>
