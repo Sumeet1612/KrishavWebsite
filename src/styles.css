@@ -37,7 +37,7 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 20px;
-  justify-content: space-between;
+  justify-content: space-between !important;
   margin-top: 1%;
   margin-left: 5%;
   margin-right: 5%;
@@ -46,7 +46,7 @@ body {
 
 header.navbar-items .navbar-collapse {
   justify-content: end;
-  flex-grow: 0;
+  flex-grow: 0 !important;
 }
 
 .nav-links li:hover {
@@ -335,4 +335,9 @@ header.navbar-items .navbar-collapse {
  
 }
 
+@media (min-width: 992px) {
+  .navbar-collapse {
+    flex-grow: 0 !important;
+  }
+}
 
